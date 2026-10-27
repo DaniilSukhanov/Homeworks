@@ -11,8 +11,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		000000000000000000000120 /* MyTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = MyTool; path = /Users/daniilsuhanov/Documents/VKSwiftHM/build/Debug/MyTool; sourceTree = "<absolute>"; };
+		000000000000000000000120 /* MyTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyTool; sourceTree = BUILT_PRODUCTS_DIR; };
 		E47A76333084325700DFD183 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		E4E66C513090EFF500A98378 /* hw1_task_manager_core.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = hw1_task_manager_core.md; sourceTree = "<group>"; };
+		E4E66C523090EFF500A98378 /* hw2_task_manager_ui.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = hw2_task_manager_ui.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -35,8 +37,11 @@
 		000000000000000000000001 = {
 			isa = PBXGroup;
 			children = (
+				E4E66C513090EFF500A98378 /* hw1_task_manager_core.md */,
+				E4E66C523090EFF500A98378 /* hw2_task_manager_ui.md */,
 				000000000000000000000010 /* MyTool */,
 				E47A76333084325700DFD183 /* .gitignore */,
+				000000000000000000000120 /* MyTool */,
 			);
 			sourceTree = "<group>";
 		};
