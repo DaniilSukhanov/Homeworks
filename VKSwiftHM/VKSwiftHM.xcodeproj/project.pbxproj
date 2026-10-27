@@ -15,12 +15,13 @@
 		E47A76333084325700DFD183 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		E4E66C513090EFF500A98378 /* hw1_task_manager_core.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = hw1_task_manager_core.md; sourceTree = "<group>"; };
 		E4E66C523090EFF500A98378 /* hw2_task_manager_ui.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = hw2_task_manager_ui.md; sourceTree = "<group>"; };
+		E4E66C763091022D00A98378 /* UIVKSwiftHomeworks.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIVKSwiftHomeworks.xcodeproj; path = ../UIVKSwiftHomeworks/UIVKSwiftHomeworks.xcodeproj; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		000000000000000000000010 /* MyTool */ = {
+		000000000000000000000010 /* Console */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MyTool;
+			path = Console;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -37,12 +38,20 @@
 		000000000000000000000001 = {
 			isa = PBXGroup;
 			children = (
+				E4E66C763091022D00A98378 /* UIVKSwiftHomeworks.xcodeproj */,
 				E4E66C513090EFF500A98378 /* hw1_task_manager_core.md */,
 				E4E66C523090EFF500A98378 /* hw2_task_manager_ui.md */,
-				000000000000000000000010 /* MyTool */,
+				000000000000000000000010 /* Console */,
 				E47A76333084325700DFD183 /* .gitignore */,
 				000000000000000000000120 /* MyTool */,
 			);
+			sourceTree = "<group>";
+		};
+		E4E66C773091022D00A98378 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -58,7 +67,7 @@
 			buildRules = (
 			);
 			fileSystemSynchronizedGroups = (
-				000000000000000000000010 /* MyTool */,
+				000000000000000000000010 /* Console */,
 			);
 			name = MyTool;
 			productName = Tool;
@@ -92,6 +101,12 @@
 			preferredProjectObjectVersion = 90;
 			productRefGroup = 000000000000000000000001;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E4E66C773091022D00A98378 /* Products */;
+					ProjectRef = E4E66C763091022D00A98378 /* UIVKSwiftHomeworks.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				000000000000000100000000 /* MyTool */,
